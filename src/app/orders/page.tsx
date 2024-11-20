@@ -1207,7 +1207,7 @@ type Payment = {
 
 // Function to send an email to multiple recipients
 const sendOrderFeedback = async (row: Payment) => {
-  const recipients = ["prakhargupta0607@gmail.com", "rkashish0406@gmail.com","alishabandyopadhyay07@gmail.com"];
+  const recipients = ["prakhargupta0607@gmail.com", "rkashish0406@gmail.com","alishabandyopadhyay07@gmail.com","nivitha.k@vit.ac.in","sendhilkumar.ks@vit.ac.in"];
   const campaignDetails = `Campaign: ${row.campaign}\nStart Date: ${row.startdate}\nEnd Date: ${row.enddate}\nEngagement: ${row.engagement}%`;
 
   try {

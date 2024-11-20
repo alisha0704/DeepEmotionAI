@@ -68,6 +68,17 @@ export default function SideNavbar() {
         genre: "Romance",
         movies: ["Movie G", "Movie H", "Movie I"],
       },
+      {
+        recipient: "nivitha.k@vit.ac.in",
+        genre: "Action",
+        movies: ["Movie G", "Movie H", "Movie I"],
+      },
+      {
+        recipient: "sendhilkumar.ks@vit.ac.in",
+        genre: "Horror",
+        movies: ["Movie G", "Movie H", "Movie I"],
+      },
+      
     ];
 
     try {
